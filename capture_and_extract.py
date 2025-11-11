@@ -10,7 +10,8 @@ from openpyxl import Workbook
 
 
 # Configuration
-camera_url = "rtsp://admin:Printcare@12@10.1.8.13:554/stream1"
+camera_url = "rtsp://admin:" \
+"@10.1.8.13:554/stream1"
 base_folder = "capturedImages"
 os.makedirs(base_folder, exist_ok=True)
 excel_path = "CCTV_OCR_Data.xlsx"
